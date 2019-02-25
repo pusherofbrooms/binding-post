@@ -1,0 +1,9 @@
+applications:
+- name: binding-post
+  buildpacks:
+  - python_buildpack
+  command: python hello.py
+  memory: 64M
+  disk_quota: 256M
+  stack: cflinuxfs3
+  random-route: true
