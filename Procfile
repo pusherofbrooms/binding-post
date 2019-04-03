@@ -1,1 +1,1 @@
-PROCESS_TYPE: web
+web: python hello.py
